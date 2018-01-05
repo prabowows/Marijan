@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "95723864568",
+    "firebase_url": "https://marijan-540c4.firebaseio.com",
+    "project_id": "marijan-540c4",
+    "storage_bucket": "marijan-540c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95723864568:android:4513eca52f953f91",
+        "android_client_info": {
+          "package_name": "com.example.prabowo.marijan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95723864568-d8hglkuogh8uv744ovq7ho4m4lbhga7c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prabowo.marijan",
+            "certificate_hash": "370c23d8b04c50a7dd1a2ee26a15d7254db4928a"
+          }
+        },
+        {
+          "client_id": "95723864568-jr2mei26jjhbfhp9dkfh87qbb22ou7hi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy_aZV5jdm-NILxtGvgyW_82fubCPJYg4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95723864568-jr2mei26jjhbfhp9dkfh87qbb22ou7hi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

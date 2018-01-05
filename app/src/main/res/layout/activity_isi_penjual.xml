@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.prabowo.nongkie.TokoActivity">
+
+    <TextView
+        android:id="@+id/TVcoba"
+        android:text="coba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:background="#000000"
+        android:id="@+id/IVsuasana"
+        android:layout_width="match_parent"
+        android:layout_height="600px" />
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/BTbuka"
+            android:layout_weight="1"
+            android:text="Buka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/BTpromo"
+            android:layout_weight="1"
+            android:text="Promo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/BTtutup"
+            android:layout_weight="1"
+            android:text="Tutup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <EditText
+        android:paddingTop="20dp"
+        android:hint="Tulis Info Terbaru Cafemu"
+        android:id="@+id/ETstatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:textColor="#ffffff"
+        android:background="#21848e"
+        android:layout_gravity="right"
+        android:text="Upload"
+        android:id="@+id/BTupload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:id="@+id/LVpesanantoko"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
